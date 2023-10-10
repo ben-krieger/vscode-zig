@@ -1,6 +1,6 @@
 import * as cp from "child_process";
 import Path from "path";
-import * as vscode from "vscode";
+import * as vscode from "coc.nvim";
 import { buildDiagnosticCollection, logChannel } from "./extension";
 import { getZigPath } from "./zigUtil";
 

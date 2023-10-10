@@ -1,5 +1,5 @@
 "use strict";
-import * as vscode from "vscode";
+import * as vscode from 'coc.nvim';
 import ZigCompilerProvider from "./zigCompilerProvider";
 import { zigBuild } from "./zigBuild";
 import { ZigFormatProvider, ZigRangeFormatProvider } from "./zigFormat";

@@ -1,7 +1,7 @@
 import * as cp from "child_process";
 import * as fs from "fs";
 import * as path from "path";
-import { window, workspace } from "vscode";
+import { window, workspace } from "coc.nvim";
 import which from "which";
 
 export const isWindows = process.platform === "win32";

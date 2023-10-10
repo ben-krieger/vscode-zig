@@ -1,5 +1,5 @@
-import * as vscode from "vscode";
-import { OutputChannel, TextEdit } from "vscode";
+import * as vscode from "coc.nvim";
+import { OutputChannel, TextEdit } from "coc.nvim";
 import { execCmd, getZigPath } from "./zigUtil";
 
 export class ZigFormatProvider implements vscode.DocumentFormattingEditProvider {

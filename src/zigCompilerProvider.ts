@@ -2,7 +2,7 @@
 
 import * as cp from "child_process";
 import * as path from "path";
-import * as vscode from "vscode";
+import * as vscode from "coc.nvim";
 // This will be treeshaked to only the debounce function
 import { throttle } from "lodash-es";
 import Path from "path";

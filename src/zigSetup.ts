@@ -1,11 +1,11 @@
-import { ExtensionContext, window, workspace } from "vscode";
+import { ExtensionContext, window, workspace } from "coc.nvim";
 
 import axios from "axios";
 import { createHash } from "crypto";
 import * as fs from "fs";
 import mkdirp from "mkdirp";
 import semver from "semver";
-import * as vscode from "vscode";
+import * as vscode from "coc.nvim";
 import { shouldCheckUpdate } from "./extension";
 import { execCmd, isWindows } from "./zigUtil";
 

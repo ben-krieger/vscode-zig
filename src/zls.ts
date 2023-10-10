@@ -1,4 +1,4 @@
-import { ExtensionContext, window, workspace } from "vscode";
+import { ExtensionContext, window, workspace } from "coc.nvim";
 
 import axios from "axios";
 import camelCase from "camelcase";
@@ -8,12 +8,12 @@ import mkdirp from "mkdirp";
 import * as os from "os";
 import * as path from "path";
 import semver from "semver";
-import * as vscode from "vscode";
+import * as vscode from "coc.nvim";
 import {
     LanguageClient,
     LanguageClientOptions,
     ServerOptions
-} from "vscode-languageclient/node";
+} from "coc.nvim";
 import which from "which";
 import { shouldCheckUpdate } from "./extension";
 import { getZigPath } from "./zigUtil";
